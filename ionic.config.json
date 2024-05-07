@@ -1,0 +1,7 @@
+{
+  "name": "dispositivos-moviles",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
