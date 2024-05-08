@@ -11,7 +11,7 @@
     <ion-page>
         <ion-header>
             <ion-toolbar>
-                <ion-title>{{ appTitle }}</ion-title>
+                <ion-title>Prog Disp Moviles</ion-title>
             </ion-toolbar>
         </ion-header>
         <ion-content class="ion-padding">
@@ -22,13 +22,10 @@
 
 <script lang="ts">
     import { IonHeader, IonToolbar, IonTitle, IonContent, IonPage } from '@ionic/vue';
-    import { APP_TITLE } from '@/core/constants';
-
     export default {
         components: { IonHeader, IonToolbar, IonTitle, IonContent, IonPage },
         data() {
             return {
-                appTitle: APP_TITLE
             };
         }
     };

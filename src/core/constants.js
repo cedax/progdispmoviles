@@ -1,1 +1,0 @@
-export const APP_TITLE = 'Programacion de dispositivos moviles';

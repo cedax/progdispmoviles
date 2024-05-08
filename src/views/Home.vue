@@ -11,7 +11,7 @@
     <ion-page>
         <ion-header>
             <ion-toolbar>
-                <ion-title>{{ appTitle }}</ion-title>
+                <ion-title>Prog Disp Moviles</ion-title>
             </ion-toolbar>
         </ion-header>
         <ion-content class="ion-padding">
@@ -26,6 +26,6 @@
 </template>
 
 <script lang="ts">
-    import WeatherPresenter from '@/presenters/WeatherPresenter.ts';
+    import WeatherPresenter from '@/presenters/WeatherPresenter';
     export default WeatherPresenter;
 </script>

@@ -3,7 +3,6 @@
 
 import { IonHeader, IonToolbar, IonTitle, IonContent, IonPage } from '@ionic/vue';
 import { getWeather } from '@/models/WeatherModel';
-import { APP_TITLE } from '@/core/constants';
 import Root from '@/core/models/weather-api-response';
 
 export default {
@@ -11,8 +10,7 @@ export default {
     data() {
         return {
             city: '',
-            weather: null,
-            appTitle: APP_TITLE
+            weather: null
         };
     },
     methods: {

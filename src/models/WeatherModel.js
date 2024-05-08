@@ -1,7 +1,7 @@
 /* eslint-disable */
 import axios from 'axios';
 
-const API_KEY = '';
+const API_KEY = '3b9255bfe7d25156ff6881be767fde73';
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
 async function getWeather(city) {
