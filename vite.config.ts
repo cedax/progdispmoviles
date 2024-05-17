@@ -17,5 +17,12 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom'
+  },
+  optimizeDeps: {
+    exclude: [
+      'swipe-back', // Ajusta esto según el nombre real de la dependencia
+      'index9',     // Ajusta esto según el nombre real de la dependencia
+      'hardware-back-button' // Ajusta esto según el nombre real de la dependencia
+    ]
   }
 })

@@ -37,6 +37,9 @@ import '@ionic/vue/css/palettes/dark.system.css';
 /* Theme variables */
 import './core/theme/variables.css';
 
+// Estilos de mapa
+import 'leaflet/dist/leaflet.css';
+
 const app = createApp(App)
   .use(IonicVue)
   .use(router);

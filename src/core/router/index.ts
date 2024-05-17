@@ -3,7 +3,7 @@
 
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { RouteRecordRaw } from 'vue-router';
-import DownNav from '../../views/components/DownNav.vue';
+import Home from '../../views/Home.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -11,27 +11,12 @@ const routes: Array<RouteRecordRaw> = [
     redirect: '/home',
   },
   {
-    path: '/',
-    component: DownNav,
-    children: [
-      {
-        path: '',
-        redirect: '/home',
-      },
-      {
-        path: 'home',
-        component: () => import('../../views/Home.vue'),
-      },
-      {
-        path: 'account',
-        component: () => import('../../views/Account.vue'),
-      }
-    ],
+    path: '/home',
+    component: Home
   },
 ];
 
 const router = createRouter({
-  // Use: createWebHistory(process.env.BASE_URL) in your app
   history: createWebHistory(),
   routes,
 });
